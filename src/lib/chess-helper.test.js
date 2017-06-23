@@ -1,6 +1,6 @@
 import { arrayToChessBoard } from './chess-helper'
 
-test('check if arrayToChessBoard works fine', () => {
+it('check if arrayToChessBoard works fine', () => {
   expect(arrayToChessBoard([0, 0, 0, 0, 0, 0, 0, 0])).toEqual(
     [
       [1, 1, 1, 1, 1, 1, 1, 1],

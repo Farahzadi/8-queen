@@ -3,7 +3,20 @@ import './App.css';
 import { ChessBoard } from './components/chess'
 
 const App = () => (
-  <ChessBoard />
+  <div>
+    <div className="chessboard-container">
+      <ChessBoard />
+    </div>
+    <div className="chessboard-container">
+      <ChessBoard />
+    </div>
+    <div className="chessboard-container">
+      <ChessBoard />
+    </div>
+    <div className="chessboard-container">
+      <ChessBoard />
+    </div>
+  </div>
 )
 
 export default App;
