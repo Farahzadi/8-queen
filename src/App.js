@@ -1,13 +1,29 @@
 import React from 'react';
-import './App.css';
+
 import { Chess } from './components/chess'
 
-const App = () => (
-  <div>
-    <div className="chessboard-container">
-      <Chess />
-    </div>
-  </div>
-)
+import './App.css';
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      model: [0, 0, 0, 0, 0, 0, 0, 0],
+      threats: 2
+    }
+  }
+
+  render() {
+    const { model, threats } = this.state
+    return (
+      <div>
+        <Chess
+          model={model}
+          threats={threats}
+        />
+      </div>
+    )
+  }
+}
 
 export default App;

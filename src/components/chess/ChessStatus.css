@@ -1,0 +1,14 @@
+.chess-status {
+  width: 100%;
+  margin: 0 15px;
+  border-collapse: collapse;
+}
+
+.chess-status__title-cell, .chess-status__content-cell {
+  padding: 10px 5px;
+  text-align: left;
+}
+
+.chess-status__title-cell {
+  color: #f15959;
+}
