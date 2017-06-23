@@ -1,20 +1,11 @@
 import React from 'react';
 import './App.css';
-import { ChessBoard } from './components/chess'
+import { Chess } from './components/chess'
 
 const App = () => (
   <div>
     <div className="chessboard-container">
-      <ChessBoard />
-    </div>
-    <div className="chessboard-container">
-      <ChessBoard />
-    </div>
-    <div className="chessboard-container">
-      <ChessBoard />
-    </div>
-    <div className="chessboard-container">
-      <ChessBoard />
+      <Chess />
     </div>
   </div>
 )
